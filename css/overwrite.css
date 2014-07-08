@@ -1,0 +1,172 @@
+.navbar {
+	background: #81818E;
+}
+.navbar ul.nav a {
+	font-family: 'Archivo Narrow', sans-serif;
+	color: #3d3d43;
+}
+.nav li.active a {
+	color: #fff;
+}
+.navbar-collapse  {
+	background: #81818E;
+}
+
+
+.heading h1 {
+	font-family: 'Dancing Script', cursive;
+   font-weight: 300;
+	text-transform: none;
+	color: #fff;
+	text-shadow: 1px 1px 6px #000000;
+}
+.ticker {
+	height: 50px;
+}
+.heading img {
+	width: 150px;
+}
+.heading a {
+	background: #3d3d43;
+}
+
+.breadcrumb {
+	background-color: transparent;
+	font-weight: 100;
+}
+
+.navbar-brand img {
+	max-width: 14%;
+}
+.navbar-header {
+	height: 0;
+}
+
+.hero {
+		background-image: url(../img/projects/1.jpg);
+}
+.hero {
+	background-image: url(../img/slider/1.jpg);
+	width: 100%;
+	color: #fff;
+	margin: 0;
+	display: table;
+	height: 100%;
+}
+
+.bg_project1 {
+	background-image: url(../img/slider/project2.jpg);
+	width: 100%;
+	color: #fff;
+	margin: 0;
+	display: table;
+	height: 100%;
+}
+
+.bg_project2 {
+	background-image: url(../img/slider/project2.jpg);
+	width: 100%;
+	color: #fff;
+	margin: 0;
+	display: table;
+	height: 100%;
+}
+
+.bg_project3 {
+	background-image: url(../img/slider/project3.jpg);
+	width: 100%;
+	color: #fff;
+	margin: 0;
+	display: table;
+	height: 100%;
+}
+
+.bg_project4 {
+	background-image: url(../img/slider/project4.jpg);
+	width: 100%;
+	color: #fff;
+	margin: 0;
+	display: table;
+	height: 100%;
+}
+
+.bg_project5 {
+	background-image: url(../img/slider/project5.jpg);
+	width: 100%;
+	color: #fff;
+	margin: 0;
+	display: table;
+	height: 100%;
+}
+
+.portfolio-title {
+	font: 80px;
+}
+
+/*THANKS ALET BOX*/
+
+.thanks-message {
+
+	text-align: center;
+}
+.thanks-message h2 {
+	font-size: 20px;
+
+}
+
+.wrong-message {
+
+	text-align: center;
+
+}
+.wrong-message h2 {
+	font-size: 20px;
+	color: red;
+
+}
+
+
+/*.team-member-holder {
+	max-width: 400px;
+}*/
+
+
+
+
+
+ @media (max-width: 768px) {
+ 	.navbar-brand img {
+		width: 10%
+	}
+	.logo {
+		position: absolute;
+		top: -14px;
+	}
+
+ }
+
+  @media (max-width: 550px) {
+ 	.navbar-brand img {
+		width: 10%
+	}
+	.logo {
+		position: absolute;
+		top: -10px;
+	}
+
+ }
+
+   @media (max-width: 450px) {
+ 	.navbar-brand img {
+		width: 12%
+	}
+	.logo {
+		position: absolute;
+		top: -12px;
+	}
+
+ }
+
+
+
+
