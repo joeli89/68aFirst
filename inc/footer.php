@@ -6,6 +6,7 @@
 			<!-- Copyright And Social -->
 			<div class="col-sm-5">
 				<p class="copyright no-margin"><?php echo date('Y'); ?> &copy; 68a Designs Limited.  - Rights Reserved</p>
+				<a href="index.php?logout=1">Logout</a>
 			</div>
 
 			<!-- Go To Top -->

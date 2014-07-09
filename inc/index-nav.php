@@ -10,7 +10,7 @@
 					<span class="ion-navicon toggle-icon"></span>
 				</button>
 				    <div class="navbar-header">
-				      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
 				        <span class="sr-only">Toggle navigation</span>
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
@@ -18,7 +18,7 @@
 				      </button>
 				    </div>
 				    <div class="logo">
-				  	  <a class="navbar-brand" href="#"><img src="img/logo/logo1.png" class="img-responsive"></a>
+				  	  <a class="navbar-brand" href="#section1"><img src="img/logo/logo1.png" class="img-responsive"></a>
 					</div>
 
 			</div>
@@ -30,7 +30,7 @@
 					<li><a href="#section2" data-id="section2" class="scroll-link">Portfolio</a></li>
 					<li><a href="#section3" data-id="section3" class="scroll-link">About</a></li>
 					<li><a href="#section4" data-id="section4" class="scroll-link">Team</a></li>
-					<li><a href="#section5" data-id="section5" class="scroll-link">Services</a></li>
+<!-- 					<li><a href="#section5" data-id="section5" class="scroll-link">Services</a></li> -->
 					<li><a href="#section6" data-id="section6" class="scroll-link">Contact</a></li>
 				</ul>
 			</nav>

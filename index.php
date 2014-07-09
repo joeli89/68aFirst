@@ -1,11 +1,18 @@
+<?php include('inc/password_protect.php'); ?>
 <?php include('inc/images.php'); ?>
 <?php 
 $pageTitle = "Home";
 include("inc/header.php");
 include("inc/index-nav.php"); ?>
 
+
+
 	<!-- Begin Hero -->
-	<div class="jumbotron hero clearfix" data-top-bottom="background-position: 50% -200px;" data-bottom-top="background-position: 50% 100px;" data-anchor-target=".ticker h1">
+	<div class='jumbotron <?php 
+$bgImages = array("hero", "hero2", "hero3", "hero4");
+$rand_keys = array_rand($bgImages);
+echo $bgImages[$rand_keys];
+?> clearfix' data-top-bottom="background-position: 50% -200px;" data-bottom-top="background-position: 50% 100px;" data-anchor-target=".ticker h1">
 		<!-- Content -->
 		<div class="container center-vertically heading">
 			<img src="img/logo/logo3.png">
@@ -78,7 +85,9 @@ include("inc/index-nav.php"); ?>
 			<div class="container port-holder">
 			  <ul id="myPortfolio" class="no-padding">
 
-			  	<?php foreach($images as $project_id => $image) { ?>
+			  	<?php 
+			  	shuffle($images); //Random Order
+			  	foreach($images as $project_id => $image) { ?>
 			  	
 				    <li class="item <?php echo $image["class"]; ?> col-xs-4 no-padding">
 				    	<a data-toggle="modal" href='<?php echo $image["link"]; ?>' data-target='#<?php echo $project_id; ?>'>
@@ -102,6 +111,7 @@ include("inc/index-nav.php"); ?>
 								                </div>
 								                <h4><?php echo $image["title"]; ?></h4>
 								                <p class="subtitle"><?php echo $image["description"]; ?></p>
+								                <p class="subtitle"><?php echo $image["text"]; ?></p>
 							            </div>
 							        </div> <!-- /.modal-content -->
 							    </div> <!-- /.modal-dialog -->
@@ -266,7 +276,7 @@ include("inc/index-nav.php"); ?>
 	<!-- End Team -->
 
 	<!-- Begin Services -->
-	<section id="section5">
+<!-- 	<section id="section5">
 
 		<div class="services">
 
@@ -274,7 +284,7 @@ include("inc/index-nav.php"); ?>
 
 				<div class="row">
 
-					<!-- Page Title -->
+
 					<div class="col-lg-10 col-lg-offset-1 page-title-2">
 						<h3>Services</h3>
 						<hr>
@@ -283,7 +293,6 @@ include("inc/index-nav.php"); ?>
 
 					<div class="col-lg-6 col-lg-offset-3" style="text-align: center;">
 
-						<!-- Nav --> 
 						<ul class="nav nav-tabs" style="display:inline-block;">
 						  <li class="active">
 							  	<a href="#design" data-toggle="tab">
@@ -322,7 +331,7 @@ include("inc/index-nav.php"); ?>
 
 					</div>
 
-					<!-- Content -->
+
 					<div class="col-lg-8 col-lg-offset-2">
 						<div class="tab-content">
 						  <div class="tab-pane fade active in" id="design">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a elit turpis. Phasellus non varius mi. Nam bibendum in mauris at sollicitudin lacinia. Vestibulum blandit nibh neque, id consequat mi vestibulum eu. Lorem ipsum dolor sit zyzz.</div>
@@ -340,7 +349,7 @@ include("inc/index-nav.php"); ?>
 
 		</div>
 
-	</section>
+	</section> -->
 	<!-- End Services -->
 
 
@@ -363,7 +372,7 @@ include("inc/index-nav.php"); ?>
 				<!-- Address -->
 				<div class="col-md-5 col-md-offset-1">
 					<p class="contact-info">
-						<a href="https://www.google.com/maps/@36.125,-115.175,11z" target="_blank"><em></em></a>
+						<a href="https://www.google.com.hk/maps/place/68A+High+St/@51.393114,-0.44865,17z/data=!3m1!4b1!4m2!3m1!1s0x48767435d48ca6d7:0x751e0f0b6ad7a392" target="_blank"><em>68a, High Street Shepperton, Surrey, TW17 9AU</em></a>
 					</p>
 				</div>
 

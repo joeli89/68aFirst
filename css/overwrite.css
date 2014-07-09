@@ -43,10 +43,7 @@
 }
 
 .hero {
-		background-image: url(../img/projects/1.jpg);
-}
-.hero {
-	background-image: url(../img/slider/1.jpg);
+	background-image: url(../img/bgImages/trad_1.jpg);
 	width: 100%;
 	color: #fff;
 	margin: 0;
@@ -54,8 +51,8 @@
 	height: 100%;
 }
 
-.bg_project1 {
-	background-image: url(../img/slider/project2.jpg);
+.hero2 {
+	background-image: url(../img/bgImages/Ultra_White_Gloss_and_Light_Pacific_Walnut.jpg);
 	width: 100%;
 	color: #fff;
 	margin: 0;
@@ -63,8 +60,8 @@
 	height: 100%;
 }
 
-.bg_project2 {
-	background-image: url(../img/slider/project2.jpg);
+.hero3 {
+	background-image:url(../img/bgImages/project2.jpg);
 	width: 100%;
 	color: #fff;
 	margin: 0;
@@ -72,8 +69,8 @@
 	height: 100%;
 }
 
-.bg_project3 {
-	background-image: url(../img/slider/project3.jpg);
+.hero4 {
+	background-image: url(../img/bgImages/trad_3.jpg);
 	width: 100%;
 	color: #fff;
 	margin: 0;
@@ -81,26 +78,22 @@
 	height: 100%;
 }
 
-.bg_project4 {
-	background-image: url(../img/slider/project4.jpg);
-	width: 100%;
-	color: #fff;
-	margin: 0;
-	display: table;
-	height: 100%;
-}
-
-.bg_project5 {
-	background-image: url(../img/slider/project5.jpg);
-	width: 100%;
-	color: #fff;
-	margin: 0;
-	display: table;
-	height: 100%;
-}
 
 .portfolio-title {
 	font: 80px;
+}
+
+.modal {
+	padding: 0%;
+}
+.modal img {
+	padding-bottom: 0%;
+}
+
+/*CONTACT*/
+
+.contact {
+	background-color: #f1f1f1;
 }
 
 /*THANKS ALET BOX*/
@@ -123,6 +116,14 @@
 	font-size: 20px;
 	color: red;
 
+}
+
+.nav-tabs li a {
+	width: 120px;
+}
+
+.nav-tabs>li {
+	width: 120px;
 }
 
 
